@@ -1,7 +1,87 @@
-body {
-    background-color: red !important;
+/* aqui eu coloquei as cores que vou usar no site */
+:root {
+--azul-escuro: #001a33;
+--azul: #008CFF;
+--azul-claro: #00BFFF;
+--branco: #F5F7FF;
 }
 
+/* aqui eu tiro as configurações padrão do navegador */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* aqui eu deixei o fundo escuro e centralizei o conteúdo */
+body {
+background-color: var(--azul-escuro);
+color: var(--branco);
+font-family: Arial, sans-serif;
+
+
+/* deixa o footer exatamente no meio da tela */
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+/* aqui eu fiz o footer e coloquei só tons de azul */
 footer {
-    background-color: blue !important;
+background: linear-gradient(
+135deg,
+var(--azul),
+var(--azul-claro)
+);
+
+
+color: var(--branco);
+width: 90%;
+max-width: 1100px;
+padding: 40px 30px;
+text-align: center;
+
+/* deixa as bordas arredondadas */
+border-radius: 15px;
+
+/* coloquei uma sombra pra ficar mais bonito */
+box-shadow: 0 10px 30px rgba(0, 140, 255, 0.4);
+
+}
+
+/* aqui eu organizei cada parte das informações */
+.footer-section {
+display: inline-block;
+vertical-align: top;
+width: 22%;
+min-width: 200px;
+margin: 10px;
+}
+
+/* aqui eu arrumei os títulos */
+.footer-section h3 {
+margin-bottom: 15px;
+font-size: 20px;
+}
+
+/* aqui eu dei um espacinho nos textos */
+.footer-section p {
+margin: 7px 0;
+}
+
+/* aqui eu fiz a parte de baixo */
+.footer-bottom {
+border-top: 1px solid var(--branco);
+margin-top: 25px;
+padding-top: 20px;
+text-align: center;
+}
+
+/* aqui eu deixei os textos de baixo separados */
+.footer-bottom p {
+margin: 5px 0;
 }
