@@ -1,7 +1,7 @@
-Cor principal: #1E3A8A
-Cor secundária: #3B82F6
-Cor de fundo: #F8FAFC
-Cor dos textos: #1F2937
+Cor principal:  #008CFF
+Cor secundária: #7B00FF
+Cor de fundo: #7B00FF
+Cor dos textos: #F5F7FF
 
 Títulos: Montserrat
 Textos: Arial
