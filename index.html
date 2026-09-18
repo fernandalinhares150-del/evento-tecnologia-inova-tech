@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InovaTech</title>
+
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
-<link rel="stylesheet" href="style.css">
 
 <body>
 
@@ -124,6 +126,39 @@
         </section>
 
     </main>
+
+    <!-- Seção de inscrição -->
+    <section id="inscricao" class="secao-conteudo">
+        <h2>Inscreva-se no InovaTech</h2>
+
+        <p>
+            Garanta sua participação no maior evento de tecnologia e inovação!
+        </p>
+
+        <form class="formulario-inscricao">
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+            <label for="interesse">Escolha seu interesse:</label>
+            <select id="interesse" name="interesse" required>
+                <option value="">Selecione uma opção</option>
+                <option value="palestras">Palestras</option>
+                <option value="workshops">Workshops</option>
+                <option value="ambos">Palestras e Workshops</option>
+            </select>
+
+            <button type="submit">Inscreva-se</button>
+
+        </form>
+    </section>
+
 
 </body>
 
